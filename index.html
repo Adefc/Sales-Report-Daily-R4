@@ -14,44 +14,28 @@ a:hover{color:#3b6fe0}
 .hb-nav a:hover{background:rgba(255,255,255,.09);color:#fff}
 .hb-card{transition:transform .25s ease,box-shadow .25s ease}
 .hb-card:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(20,35,75,.16)}
-.hb-go:hover{filter:brightness(1.08);color:#fff}
 @media (prefers-reduced-motion:no-preference){.hb-sun{transform-box:fill-box;transform-origin:center;animation:hbGlow 4.5s ease-in-out infinite}.hb-fl{transform-box:fill-box;transform-origin:center;animation:hbSpin 18s linear infinite}}
 @keyframes hbGlow{50%{transform:scale(1.1)}}
 @keyframes hbSpin{to{transform:rotate(360deg)}}
 </style>
-<style>html{scroll-behavior:smooth}article,section,header{scroll-margin-top:16px}</style>
-<style>
+<style>html{scroll-behavior:smooth}
 @media (max-width:760px){
-.hb-root{padding:10px!important}
-.hb-wrap{gap:12px!important}
+.hb-root{padding:10px!important}.hb-wrap{gap:12px!important}
 .hb-side{flex:1 1 100%!important;max-width:none!important;min-width:0!important;position:sticky;top:6px;z-index:20;padding:6px!important;border-radius:14px!important;display:flex;align-items:center;gap:8px;box-shadow:0 8px 20px rgba(20,35,75,.3)}
 .hb-logo{flex:none;width:52px;border-radius:10px!important;box-shadow:none!important}
 .hb-hide{display:none!important}
-.hb-nav{flex-direction:row!important;flex-wrap:nowrap;overflow-x:auto;gap:4px!important;scrollbar-width:none;-webkit-overflow-scrolling:touch;min-width:0;flex:1}
+.hb-nav{flex-direction:row!important;flex-wrap:nowrap;overflow-x:auto;gap:4px!important;scrollbar-width:none;min-width:0;flex:1}
 .hb-nav::-webkit-scrollbar{display:none}
 .hb-nav a{flex:none;white-space:nowrap;padding:8px 11px!important;font-size:12px!important;gap:6px!important;box-shadow:none!important}
-.hb-head{padding:16px!important;border-radius:14px!important;gap:12px!important}
-.hb-head > div{flex:1 1 100%!important}
-.hb-h1{font-size:22px!important;line-height:1.2!important}
-.hb-head p{font-size:13px!important}
-.hb-pill{font-size:11.5px!important;padding:6px 10px!important}
-.hb-card{padding:16px!important;border-radius:14px!important;gap:12px!important}
-.hb-card h2{font-size:16.5px!important;line-height:1.3}
-.hb-card p{font-size:13px!important}
-.hb-card > div:first-child > div:first-child{width:42px!important;height:42px!important}
-.hb-btn{align-self:stretch!important;justify-content:center}
-.hb-sec{padding:16px!important;border-radius:14px!important}
-.hb-sec h2{font-size:17px!important}
-.hb-foot{flex-direction:column;border-radius:14px!important;padding:14px 16px!important}
-.hb-card:hover{transform:none}
+.hb-head{padding:18px 16px!important;border-radius:14px!important}.hb-h1{font-size:22px!important;line-height:1.2!important}
+.hb-card{padding:16px!important;border-radius:14px!important}.hb-card:hover{transform:none}
 html{scroll-padding-top:76px}
 }
 </style>
 </head>
 <body>
 <div class="hb-root" style="font-family:'DM Sans',system-ui,sans-serif;color:#1b2340;background:#f4f6fb;min-height:100vh;box-sizing:border-box;padding:16px">
-<div class="hb-wrap" style="max-width:1400px;margin:0 auto;display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start">
-
+<div class="hb-wrap" style="max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start">
 <aside class="hb-side" style="flex:1 1 200px;max-width:220px;min-width:180px;background:linear-gradient(180deg,#14234b,#1d3166);color:#fff;border-radius:16px;padding:14px 12px 18px;box-sizing:border-box">
 <div class="hb-logo" style="border-radius:14px;overflow:hidden;line-height:0;box-shadow:0 10px 24px rgba(0,0,0,.35)">
 <svg viewBox="0 0 196 120" role="img" aria-label="Logo Sales Review Hub bernuansa Bali" style="display:block;width:100%;height:auto">
@@ -74,114 +58,46 @@ html{scroll-padding-top:76px}
 <div class="hb-hide" style="height:1px;background:rgba(255,255,255,.14);margin:14px 4px"></div>
 <nav class="hb-nav" aria-label="Menu" style="display:flex;flex-direction:column;gap:3px">
 <a href="#home" style="display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;background:#fff;color:#14234b;font:600 13px Poppins,sans-serif;box-shadow:0 6px 16px rgba(0,0,0,.28)"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Beranda</a>
+<a href="#sales-overall" style="display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;font:500 13px Poppins,sans-serif"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>Sales Overall</a>
 <a href="#google-review" style="display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;font:500 13px Poppins,sans-serif"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3.5l2.4 5 5.5.8-4 3.9.9 5.4L12 16l-4.8 2.6.9-5.4-4-3.9 5.5-.8z"/></svg>Google Review</a>
-<a href="#financing" style="display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;font:500 13px Poppins,sans-serif"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20M16 14.5h2"/></svg>Financing &amp; Payment</a>
+<a href="#financing" style="display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;font:500 13px Poppins,sans-serif"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20M16 14.5h2"/></svg>Financing</a>
 <a href="#operator" style="display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;font:500 13px Poppins,sans-serif"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>Operator</a>
 <a href="#bolttech" style="display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;font:500 13px Poppins,sans-serif"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg>bolttech</a>
-<a href="#rutinitas" style="display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;font:500 13px Poppins,sans-serif"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>Rutinitas harian</a>
 </nav>
-<div class="hb-hide" style="margin-top:16px;padding:12px 8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:11.5px;line-height:1.7;color:rgba(255,255,255,.72)">
-<div style="font:600 11px Poppins,sans-serif;letter-spacing:.06em;color:#fff">TERRITORY</div>
-<div>• Bali Nusra</div><div>• Jawa Timur</div><div>• Kalimantan</div>
-</div>
 </aside>
-
 <main style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:18px">
-<header id="home" class="hb-head" style="background:linear-gradient(90deg,#14234b,#1d3166);color:#fff;border-radius:16px;padding:22px 24px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between">
-<div style="min-width:0;flex:1 1 380px">
-<div style="font:600 11.5px Poppins,sans-serif;letter-spacing:.12em;color:#f6a04d">DAILY SALES REVIEW</div>
-<h1 class="hb-h1" style="margin:6px 0 0;font:700 32px/1.15 Poppins,sans-serif;letter-spacing:-.01em">Sales Review Hub · Region 4</h1>
-<p style="margin:8px 0 0;font-size:14px;line-height:1.55;color:rgba(255,255,255,.85);max-width:640px">Satu pintu untuk empat dashboard review harian: ulasan Google, financing &amp; payment method, operator, dan bolttech. Pilih dashboard di bawah untuk mulai review.</p>
-</div>
-<div style="display:flex;flex-wrap:wrap;gap:8px">
-<span class="hb-pill" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:9px;padding:7px 12px;font:500 12.5px Poppins,sans-serif">4 dashboard</span>
-<span class="hb-pill" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:9px;padding:7px 12px;font:500 12.5px Poppins,sans-serif">Update harian</span>
-<span class="hb-pill" style="background:#f08c2e;border:1px solid #f08c2e;border-radius:9px;padding:7px 12px;font:600 12.5px Poppins,sans-serif">Save as PDF di tiap dashboard</span>
-</div>
+<header id="home" class="hb-head" style="background:linear-gradient(90deg,#14234b,#1d3166);color:#fff;border-radius:16px;padding:26px 24px">
+<h1 class="hb-h1" style="margin:0;font:700 30px/1.15 Poppins,sans-serif;letter-spacing:-.01em">Sales Review Hub · Region 4</h1>
+<p style="margin:8px 0 0;font-size:14px;color:rgba(255,255,255,.8)">Pilih dashboard untuk mulai review harian.</p>
 </header>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:18px">
-
-<article id="google-review" class="hb-card" style="background:#fff;border:1px solid #e3e8f2;border-top:5px solid #3b6fe0;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;gap:14px;align-items:center">
-<div style="width:48px;height:48px;border-radius:50%;background:#3b6fe0;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3.5l2.4 5 5.5.8-4 3.9.9 5.4L12 16l-4.8 2.6.9-5.4-4-3.9 5.5-.8z"/></svg></div>
-<div style="min-width:0"><h2 style="margin:0;font:700 19px Poppins,sans-serif">Google Review Analysis</h2><div style="font-size:12.5px;color:#5b6478;margin-top:2px">iBox Bali · 11 store</div></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px">
+<a id="sales-overall" class="hb-card" href="https://claude.ai/artifact/NoKAgXTFsaLQQ6hS5MvasS" target="_blank" rel="noopener" style="grid-column:1/-1;display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #e3e8f2;border-radius:16px;padding:20px;color:#1b2340;min-height:44px;box-sizing:border-box">
+<span style="width:56px;height:56px;border-radius:50%;background:#1f9d6b;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+<span style="flex:1;min-width:0"><span style="display:block;font:700 22px/1.25 Poppins,sans-serif">Sales Overall</span><span style="display:block;font-size:13px;color:#5b6478;margin-top:3px">Omset vs target semua kategori</span></span>
+<span style="width:36px;height:36px;border-radius:50%;background:#1f9d6b;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+</a>
+<a id="google-review" class="hb-card" href="https://claude.ai/artifact/4dDMTcF6P2keB3CpxmDCof" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #e3e8f2;border-radius:16px;padding:20px;color:#1b2340;min-height:44px;box-sizing:border-box">
+<span style="width:48px;height:48px;border-radius:50%;background:#3b6fe0;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3.5l2.4 5 5.5.8-4 3.9.9 5.4L12 16l-4.8 2.6.9-5.4-4-3.9 5.5-.8z"/></svg></span>
+<span style="flex:1;min-width:0"><span style="display:block;font:700 18px/1.25 Poppins,sans-serif">Google Review</span><span style="display:block;font-size:13px;color:#5b6478;margin-top:3px">Ulasan &amp; rating iBox Bali</span></span>
+<span style="width:36px;height:36px;border-radius:50%;background:#3b6fe0;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+</a>
+<a id="financing" class="hb-card" href="https://claude.ai/artifact/8aM3NvyiomFYnna2KXFFrS" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #e3e8f2;border-radius:16px;padding:20px;color:#1b2340;min-height:44px;box-sizing:border-box">
+<span style="width:48px;height:48px;border-radius:50%;background:#f08c2e;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20M16 14.5h2"/></svg></span>
+<span style="flex:1;min-width:0"><span style="display:block;font:700 18px/1.25 Poppins,sans-serif">Financing &amp; Payment</span><span style="display:block;font-size:13px;color:#5b6478;margin-top:3px">FIN% &amp; payment method</span></span>
+<span style="width:36px;height:36px;border-radius:50%;background:#f08c2e;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+</a>
+<a id="operator" class="hb-card" href="https://claude.ai/artifact/L22wMth3XdEgb5zfa8WGKA" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #e3e8f2;border-radius:16px;padding:20px;color:#1b2340;min-height:44px;box-sizing:border-box">
+<span style="width:48px;height:48px;border-radius:50%;background:#e0457b;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12a7 7 0 0 1 14 0"/><path d="M8.5 12a3.5 3.5 0 0 1 7 0"/><circle cx="12" cy="12" r="1"/><path d="M12 13v8"/></svg></span>
+<span style="flex:1;min-width:0"><span style="display:block;font:700 18px/1.25 Poppins,sans-serif">Operator</span><span style="display:block;font-size:13px;color:#5b6478;margin-top:3px">Indosat · XL · Telkomsel</span></span>
+<span style="width:36px;height:36px;border-radius:50%;background:#e0457b;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+</a>
+<a id="bolttech" class="hb-card" href="https://claude.ai/artifact/SzfSTFJqZZBTXpg2JYZ6DB" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #e3e8f2;border-radius:16px;padding:20px;color:#1b2340;min-height:44px;box-sizing:border-box">
+<span style="width:48px;height:48px;border-radius:50%;background:#7c4ddb;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+<span style="flex:1;min-width:0"><span style="display:block;font:700 18px/1.25 Poppins,sans-serif">bolttech</span><span style="display:block;font-size:13px;color:#5b6478;margin-top:3px">TecPro &amp; attach rate</span></span>
+<span style="width:36px;height:36px;border-radius:50%;background:#7c4ddb;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+</a>
 </div>
-<p style="margin:0;font-size:13.5px;line-height:1.55;color:#3c4458">Ulasan Google Maps dibandingkan transaksi POS: AR% per store, rating saat ini, progress mingguan, dan highlight ulasan 3 hari terakhir.</p>
-<div style="display:flex;flex-wrap:wrap;gap:6px">
-<span style="padding:4px 10px;border-radius:99px;background:#eef3ff;color:#2f5be0;font:600 11.5px Poppins,sans-serif">AR% harian</span>
-<span style="padding:4px 10px;border-radius:99px;background:#eef3ff;color:#2f5be0;font:600 11.5px Poppins,sans-serif">Rating per store</span>
-<span style="padding:4px 10px;border-radius:99px;background:#eef3ff;color:#2f5be0;font:600 11.5px Poppins,sans-serif">Okt vs Nov</span>
-<span style="padding:4px 10px;border-radius:99px;background:#eef3ff;color:#2f5be0;font:600 11.5px Poppins,sans-serif">Peta AR%</span>
-<span style="padding:4px 10px;border-radius:99px;background:#eef3ff;color:#2f5be0;font:600 11.5px Poppins,sans-serif">Detail ulasan</span>
-</div>
-<a class="hb-go hb-btn" href="https://claude.ai/artifact/4dDMTcF6P2keB3CpxmDCof" target="_blank" rel="noopener" style="margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;gap:8px;background:#3b6fe0;color:#fff;border-radius:10px;padding:11px 18px;font:600 13.5px Poppins,sans-serif;min-height:44px;box-sizing:border-box">Buka dashboard <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-
-<article id="financing" class="hb-card" style="background:#fff;border:1px solid #e3e8f2;border-top:5px solid #f08c2e;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;gap:14px;align-items:center">
-<div style="width:48px;height:48px;border-radius:50%;background:#f08c2e;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20M16 14.5h2"/></svg></div>
-<div style="min-width:0"><h2 style="margin:0;font:700 19px Poppins,sans-serif">Sales &amp; Financing Daily Review</h2><div style="font-size:12.5px;color:#5b6478;margin-top:2px">Financing · Payment method</div></div>
-</div>
-<p style="margin:0;font-size:13.5px;line-height:1.55;color:#3c4458">Sales dan financing MTD per financier (HCI, Indodana, Kredivo, Akulaku, SPayLater), FIN%, payment method, CNP SOB%, customer bule vs lokal, per TSH, BU, dan store.</p>
-<div style="display:flex;flex-wrap:wrap;gap:6px">
-<span style="padding:4px 10px;border-radius:99px;background:#fff3e6;color:#b35d10;font:600 11.5px Poppins,sans-serif">FIN% MTD</span>
-<span style="padding:4px 10px;border-radius:99px;background:#fff3e6;color:#b35d10;font:600 11.5px Poppins,sans-serif">Per financier</span>
-<span style="padding:4px 10px;border-radius:99px;background:#fff3e6;color:#b35d10;font:600 11.5px Poppins,sans-serif">Payment method</span>
-<span style="padding:4px 10px;border-radius:99px;background:#fff3e6;color:#b35d10;font:600 11.5px Poppins,sans-serif">CNP · SOB%</span>
-<span style="padding:4px 10px;border-radius:99px;background:#fff3e6;color:#b35d10;font:600 11.5px Poppins,sans-serif">Bule vs lokal</span>
-</div>
-<a class="hb-go hb-btn" href="https://claude.ai/artifact/8aM3NvyiomFYnna2KXFFrS" target="_blank" rel="noopener" style="margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;gap:8px;background:#d9741c;color:#fff;border-radius:10px;padding:11px 18px;font:600 13.5px Poppins,sans-serif;min-height:44px;box-sizing:border-box">Buka dashboard <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-
-<article id="operator" class="hb-card" style="background:#fff;border:1px solid #e3e8f2;border-top:5px solid #e0457b;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;gap:14px;align-items:center">
-<div style="width:48px;height:48px;border-radius:50%;background:#e0457b;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12a7 7 0 0 1 14 0"/><path d="M8.5 12a3.5 3.5 0 0 1 7 0"/><circle cx="12" cy="12" r="1"/><path d="M12 13v8"/></svg></div>
-<div style="min-width:0"><h2 style="margin:0;font:700 19px Poppins,sans-serif">Operator Performance Dashboard</h2><div style="font-size:12.5px;color:#5b6478;margin-top:2px">Indosat · XL · Telkomsel</div></div>
-</div>
-<p style="margin:0;font-size:13.5px;line-height:1.55;color:#3c4458">Pencapaian operator vs target per TSH, channel, dan store: estimasi akhir bulan, AR% operator, tenor paket, produktivitas dan insentif ERO.</p>
-<div style="display:flex;flex-wrap:wrap;gap:6px">
-<span style="padding:4px 10px;border-radius:99px;background:#fdeaf1;color:#b8285c;font:600 11.5px Poppins,sans-serif">Scorecard TSH</span>
-<span style="padding:4px 10px;border-radius:99px;background:#fdeaf1;color:#b8285c;font:600 11.5px Poppins,sans-serif">Provider × TSH</span>
-<span style="padding:4px 10px;border-radius:99px;background:#fdeaf1;color:#b8285c;font:600 11.5px Poppins,sans-serif">Per channel</span>
-<span style="padding:4px 10px;border-radius:99px;background:#fdeaf1;color:#b8285c;font:600 11.5px Poppins,sans-serif">Produktivitas ERO</span>
-<span style="padding:4px 10px;border-radius:99px;background:#fdeaf1;color:#b8285c;font:600 11.5px Poppins,sans-serif">Insentif ERO</span>
-</div>
-<a class="hb-go hb-btn" href="https://claude.ai/artifact/L22wMth3XdEgb5zfa8WGKA" target="_blank" rel="noopener" style="margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;gap:8px;background:#d13a6f;color:#fff;border-radius:10px;padding:11px 18px;font:600 13.5px Poppins,sans-serif;min-height:44px;box-sizing:border-box">Buka dashboard <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-
-<article id="bolttech" class="hb-card" style="background:#fff;border:1px solid #e3e8f2;border-top:5px solid #7c4ddb;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;gap:14px;align-items:center">
-<div style="width:48px;height:48px;border-radius:50%;background:#7c4ddb;color:#fff;display:grid;place-items:center;flex:none"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
-<div style="min-width:0"><h2 style="margin:0;font:700 19px Poppins,sans-serif">bolttech Performance Dashboard</h2><div style="font-size:12.5px;color:#5b6478;margin-top:2px">TecPro · Region 4</div></div>
-</div>
-<p style="margin:0;font-size:13.5px;line-height:1.55;color:#3c4458">Pencapaian TecPro per TSH, channel, dan store: attach rate, product mix 12/24/36 bulan, estimasi insentif TSH dan Store Leader, serta produktivitas ERO.</p>
-<div style="display:flex;flex-wrap:wrap;gap:6px">
-<span style="padding:4px 10px;border-radius:99px;background:#f2ecfd;color:#6236c4;font:600 11.5px Poppins,sans-serif">Attach rate</span>
-<span style="padding:4px 10px;border-radius:99px;background:#f2ecfd;color:#6236c4;font:600 11.5px Poppins,sans-serif">Product mix</span>
-<span style="padding:4px 10px;border-radius:99px;background:#f2ecfd;color:#6236c4;font:600 11.5px Poppins,sans-serif">Scorecard TSH</span>
-<span style="padding:4px 10px;border-radius:99px;background:#f2ecfd;color:#6236c4;font:600 11.5px Poppins,sans-serif">Est. insentif</span>
-<span style="padding:4px 10px;border-radius:99px;background:#f2ecfd;color:#6236c4;font:600 11.5px Poppins,sans-serif">Produktivitas ERO</span>
-</div>
-<a class="hb-go hb-btn" href="https://claude.ai/artifact/SzfSTFJqZZBTXpg2JYZ6DB" target="_blank" rel="noopener" style="margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;gap:8px;background:#7c4ddb;color:#fff;border-radius:10px;padding:11px 18px;font:600 13.5px Poppins,sans-serif;min-height:44px;box-sizing:border-box">Buka dashboard <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</article>
-</div>
-
-<section id="rutinitas" class="hb-sec" style="background:#fff;border:1px solid #e3e8f2;border-radius:16px;padding:20px">
-<h2 style="margin:0 0 4px;font:700 20px Poppins,sans-serif">Rutinitas review harian</h2>
-<p style="margin:0 0 16px;font-size:13px;color:#5b6478">Urutan yang sama berlaku di keempat dashboard.</p>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:14px">
-<div style="display:flex;gap:12px;align-items:flex-start"><div style="width:32px;height:32px;border-radius:9px;background:#14234b;color:#fff;display:grid;place-items:center;font:700 14px Poppins,sans-serif;flex:none">1</div><div><b style="font:600 14px Poppins,sans-serif">Cek Ringkasan</b><div style="font-size:12.5px;color:#5b6478;line-height:1.5;margin-top:2px">Lihat KPI MTD, estimasi akhir bulan, dan key insights.</div></div></div>
-<div style="display:flex;gap:12px;align-items:flex-start"><div style="width:32px;height:32px;border-radius:9px;background:#14234b;color:#fff;display:grid;place-items:center;font:700 14px Poppins,sans-serif;flex:none">2</div><div><b style="font:600 14px Poppins,sans-serif">Bandingkan harian</b><div style="font-size:12.5px;color:#5b6478;line-height:1.5;margin-top:2px">Hari ini vs kemarin, minggu lalu, dan bulan lalu.</div></div></div>
-<div style="display:flex;gap:12px;align-items:flex-start"><div style="width:32px;height:32px;border-radius:9px;background:#14234b;color:#fff;display:grid;place-items:center;font:700 14px Poppins,sans-serif;flex:none">3</div><div><b style="font:600 14px Poppins,sans-serif">Buka Sorotan</b><div style="font-size:12.5px;color:#5b6478;line-height:1.5;margin-top:2px">Store dan ERO yang perlu ditindaklanjuti hari ini.</div></div></div>
-<div style="display:flex;gap:12px;align-items:flex-start"><div style="width:32px;height:32px;border-radius:9px;background:#f08c2e;color:#fff;display:grid;place-items:center;font:700 14px Poppins,sans-serif;flex:none">4</div><div><b style="font:600 14px Poppins,sans-serif">Save as PDF</b><div style="font-size:12.5px;color:#5b6478;line-height:1.5;margin-top:2px">Kirim laporan ke tim lewat tombol di header dashboard.</div></div></div>
-</div>
-</section>
-
-<footer class="hb-foot" style="background:linear-gradient(90deg,#14234b,#1d3166);color:rgba(255,255,255,.8);border-radius:16px;padding:16px 20px;font-size:12.5px;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between">
-<span><b style="color:#fff;font-family:Poppins,sans-serif">Sales Review Hub</b> · Erajaya Region 4</span>
-<span>Bali Nusra · Jawa Timur · Kalimantan</span>
-</footer>
+<footer class="hb-foot" style="color:#5b6478;font-size:12.5px;text-align:center;padding:6px 0 4px">Erajaya Region 4 · Bali Nusra · Jawa Timur · Kalimantan</footer>
 </main>
 </div>
 </div>
